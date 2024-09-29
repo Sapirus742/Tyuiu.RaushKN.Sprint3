@@ -2,11 +2,11 @@
 
 namespace Tyuiu.RaushKN.Sprint3.Task7.V14.Lib
 {
-    public class DataService //: ISprint3Task7V14
+    public class DataService : ISprint3Task7V14
     {
-        public object[] GetMassFunction(int startValue, int stopValue)
+        public double[] GetMassFunction(int startValue, int stopValue)
         {
-            object[] massfunValue = new object[11];
+            double[] massfunValue = new double[11];
             int i = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
