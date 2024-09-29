@@ -36,7 +36,8 @@ namespace Tyuiu.RaushKN.Sprint3.Task7.V14
             Console.WriteLine("# РЕЗУЛЬТАТ:                                                              #");
             Console.WriteLine("###########################################################################");
 
-            Console.WriteLine(res);
+            object[] res2 = Array.ConvertAll(res, element => (object)element);
+            Console.WriteLine(res2);
             Console.ReadKey();
         }
     }
