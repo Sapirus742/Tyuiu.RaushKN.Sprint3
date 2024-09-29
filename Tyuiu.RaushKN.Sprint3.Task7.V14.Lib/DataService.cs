@@ -13,8 +13,9 @@ namespace Tyuiu.RaushKN.Sprint3.Task7.V14.Lib
                 if (Math.Sin(x) + 1 == 0) massfunValue[i] = 0;
                 else massfunValue[i] = Math.Round(2 * x - 4 + ((2 * x - 1) / (Math.Sin(x)+1)), 2);
                 i++;
-            } 
-            return massfunValue;
+            }
+            object[] massfunValue1 = Array.ConvertAll(massfunValue, element  => (object)element);
+            return massfunValue1;
         }
             
         
