@@ -36,9 +36,7 @@ namespace Tyuiu.RaushKN.Sprint3.Task7.V14
             Console.WriteLine("# РЕЗУЛЬТАТ:                                                              #");
             Console.WriteLine("###########################################################################");
 
-            
-            for (int z = 0; z <=10; z++)
-                Console.WriteLine(res[z]);
+            Console.WriteLine(res);
             Console.ReadKey();
         }
     }
