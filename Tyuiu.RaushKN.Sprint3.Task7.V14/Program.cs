@@ -26,7 +26,7 @@ namespace Tyuiu.RaushKN.Sprint3.Task7.V14
 
             int startValue = -5;
             int stopValue = 5;
-            double[] res = ds.GetMassFunction(startValue, stopValue);
+            object[] res = ds.GetMassFunction(startValue, stopValue);
 
             Console.WriteLine("Начало числового отрезка = " + startValue);
             Console.WriteLine("Конец числового отрезка = " + stopValue);
