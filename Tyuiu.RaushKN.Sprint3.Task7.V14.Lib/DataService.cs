@@ -4,7 +4,7 @@ namespace Tyuiu.RaushKN.Sprint3.Task7.V14.Lib
 {
     public class DataService : ISprint3Task7V14
     {
-        public object[] GetMassFunction(int startValue, int stopValue)
+        public double[] GetMassFunction(int startValue, int stopValue)
         {
             double[] massfunValue = new double[11];
             int i = 0;
@@ -14,8 +14,7 @@ namespace Tyuiu.RaushKN.Sprint3.Task7.V14.Lib
                 else massfunValue[i] = Math.Round(2 * x - 4 + ((2 * x - 1) / (Math.Sin(x)+1)), 2);
                 i++;
             }
-            object[] massfunValue1 = Array.ConvertAll(massfunValue, element  => (object)element);
-            return massfunValue1;
+            return massfunValue;
         }
             
         
