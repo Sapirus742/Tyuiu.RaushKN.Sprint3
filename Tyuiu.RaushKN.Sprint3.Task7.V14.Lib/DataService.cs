@@ -4,7 +4,7 @@ namespace Tyuiu.RaushKN.Sprint3.Task7.V14.Lib
 {
     public class DataService : ISprint3Task7V14
     {
-        public double[] GetMassFunction(int startValue, int stopValue)
+        public object[] GetMassFunction(int startValue, int stopValue)
         {
             double[] massfunValue = new double[11];
             int i = 0;
