@@ -37,7 +37,7 @@ namespace Tyuiu.RaushKN.Sprint3.Task7.V14
             Console.WriteLine("###########################################################################");
 
             object[] res2 = Array.ConvertAll(res, element => (object)element);
-            Console.WriteLine(res2);
+            for (int z = 0; z <= 10; z++) Console.WriteLine(res2[z]);
             Console.ReadKey();
         }
     }
